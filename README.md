@@ -60,14 +60,14 @@ A real-time virtual painting application, also known as Air Canvas, that uses ha
 
 ## How It Works
 
-The system uses **MediaPipe** to detect and track 21 hand landmarks in real time from webcam input. The index finger tip acts as the "pen" — its coordinates across frames are used to draw continuous strokes onto an OpenCV canvas overlay, which is blended with the live video feed. Color segmentation and contour detection help isolate and interpret hand movements against the background.
+The system uses **MediaPipe** to detect and track 21 hand landmarks in real time from webcam input. The index finger tip acts as the "pen", its coordinates across frames are used to draw continuous strokes onto an OpenCV canvas overlay, which is blended with the live video feed. Color segmentation and contour detection help isolate and interpret hand movements against the background.
 
 ## Technologies Used
 
 - Python
-- OpenCV — video capture, drawing, and canvas rendering
-- MediaPipe — hand landmark detection and tracking
-- NumPy — coordinate and array operations
+- OpenCV - video capture, drawing, and canvas rendering
+- MediaPipe - hand landmark detection and tracking
+- NumPy - coordinate and array operations
 
 ## Performance
 
