@@ -50,12 +50,12 @@ A real-time virtual painting application, also known as Air Canvas, that uses ha
 
 ## Controls
 
-<!-- Fill in your actual gesture/keyboard logic -->
-| Action | Gesture / Key |
+| Action | Gesture |
 |---|---|
 | Draw | Raise index finger only |
-| Select color | <!-- e.g. hover over on-screen color palette --> |
-| Clear canvas | 
+| Select color | Hover index finger over the on-screen color palette |
+| Clear canvas | Hover index finger over the on-screen "Clear" button |
+| Stop drawing | Pinch index finger and thumb together |
 | Quit | Press `q` |
 
 ## How It Works
